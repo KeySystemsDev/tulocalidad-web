@@ -84,10 +84,19 @@ header h1,
 	color: #06b872;
 }
 
+.descarga p{
+	color: #06b872;
+}
+
 /*---- Background ----*/
 .features,
 .detail .carousel-indicators .active {
 	background: #6e132a;	
+}
+
+.descarga,
+.detail .carousel-indicators .active {
+	background: #FFF;	
 }
 	
 
@@ -380,6 +389,46 @@ header .carousel-indicators li {
 }
 
 /*-----------------------------------------------------------------------------------*/
+/*	DESCARGHA
+/*-----------------------------------------------------------------------------------*/
+
+.descarga{
+	overflow: hidden;
+	padding: 150px 0px 150px 0px;
+	min-height: 400px;
+	color: black;
+}
+
+.descarga p {
+	font-weight: 400;
+}
+
+.descarga h2{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.descarga .circle{
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 33px;
+	width: 150px;
+	height: 150px;
+	border: 2px solid #ffffff;
+	border-radius: 100%;
+	text-align: center;
+	
+}
+
+.descarga span.glyphicon, .descarga i{
+	margin-top: 3px;
+	color: #ffffff;
+	font-size: 5em;
+}
+
+/*-----------------------------------------------------------------------------------*/
 /*	SOCIAL
 /*-----------------------------------------------------------------------------------*/
 
@@ -512,6 +561,10 @@ header, .social{
 	margin-bottom: 60px;
 }
 
+.descarga .col-md-4{
+	margin-bottom: 60px;
+}
+
 }
 
 @media (max-width:480px){
@@ -544,6 +597,10 @@ header, .social{
 	}
 	
 	.features col-md-4{
+		margin-bottom: 50px;
+	}
+
+	.descarga col-md-4{
 		margin-bottom: 50px;
 	}
 	
