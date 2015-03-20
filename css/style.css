@@ -589,3 +589,7 @@ header, .social{
 	padding: 15px 0px 15px 0px;
   	box-shadow: 0 0 3px #000;
 }
+.img-tulocaldiad-bar{
+	position: absolute;
+	top: 13px;
+}
