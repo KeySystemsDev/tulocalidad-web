@@ -482,7 +482,7 @@ header .carousel-indicators li {
 
 .social a {
 	margin-left: 10px;
-	color: #FFF;
+	color: #000;
 	font-size: 5em;
 	transition: all 0.3s;
 }
@@ -490,6 +490,7 @@ header .carousel-indicators li {
 .social a:hover{
 	text-decoration: none;
 	cursor: pointer;
+	color: #760909;
 	
 }
 
