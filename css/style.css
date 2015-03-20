@@ -95,7 +95,7 @@ header h1,
 }
 
 .descarga,
-.detail .carousel-indicators .active {
+.detail .active {
 	background: #FFF;	
 }
 	
@@ -394,7 +394,7 @@ header .carousel-indicators li {
 
 .descarga{
 	overflow: hidden;
-	padding: 150px 0px 150px 0px;
+	padding: 50px 0px 50px 0px;
 	min-height: 400px;
 	color: black;
 }
@@ -650,4 +650,15 @@ header, .social{
 .img-tulocaldiad-bar{
 	position: absolute;
 	top: 13px;
+}
+.col-img-descarga{
+	margin-bottom: 45px;
+	margin-top: 10px;
+	margin-left: 0px;
+}
+.col-descarga{
+	left: -95px;
+}
+.text-descarga{
+	margin-top: 200px;
 }
