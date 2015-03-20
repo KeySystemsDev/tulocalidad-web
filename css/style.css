@@ -88,6 +88,10 @@ header h1,
 	color: #06b872;
 }
 
+.registrar col-md-4{
+		margin-bottom: 50px;
+	}
+
 /*---- Background ----*/
 .features,
 .detail .carousel-indicators .active {
@@ -97,6 +101,10 @@ header h1,
 .descarga,
 .detail .active {
 	background: #FFF;	
+}
+
+.registrar {
+	background: #6e132a;	
 }
 	
 
@@ -429,6 +437,32 @@ header .carousel-indicators li {
 }
 
 /*-----------------------------------------------------------------------------------*/
+/*	registrar
+/*-----------------------------------------------------------------------------------*/
+
+.registrar{
+	overflow: hidden;
+	padding: 50px 0px 1px 0px;
+	min-height: 400px;
+	color: black;
+}
+
+.registrar p {
+	font-weight: 400;
+}
+
+.registrar h2{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.registrar span.glyphicon, .descarga i{
+	margin-top: 3px;
+	color: #ffffff;
+	font-size: 5em;
+}
+/*-----------------------------------------------------------------------------------*/
 /*	SOCIAL
 /*-----------------------------------------------------------------------------------*/
 
@@ -565,6 +599,10 @@ header, .social{
 	margin-bottom: 60px;
 }
 
+.registrar .col-md-4{
+	margin-bottom: 60px;
+}
+
 }
 
 @media (max-width:480px){
@@ -601,6 +639,10 @@ header, .social{
 	}
 
 	.descarga col-md-4{
+		margin-bottom: 50px;
+	}
+
+	.registrar col-md-4{
 		margin-bottom: 50px;
 	}
 	
