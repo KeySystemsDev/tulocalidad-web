@@ -291,7 +291,7 @@ header .carousel-indicators li {
 	overflow: hidden;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 95px;
+	padding-top: 63px;
 	width: 320px;
 	height: 450px;
 	background: url('../img/iphone-front.png') no-repeat;
@@ -302,6 +302,7 @@ header .carousel-indicators li {
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 4px;
+	padding-right: 4px;
 	width: 280px;
 }
 
